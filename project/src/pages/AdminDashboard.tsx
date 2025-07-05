@@ -16,20 +16,20 @@ export default function AdminDashboard() {
 
   const mockUsers = [
     { id: '1', name: 'Priya Sharma', email: 'priya@gmail.com', type: 'normal', status: 'active', joinDate: '2024-01-15' },
-    { id: '2', name: 'Rahul Kumar', email: 'rahul@gmail.com', type: 'scrap_collector', status: 'active', joinDate: '2024-02-20' },
-    { id: '3', name: 'Anita Singh', email: 'anita@gmail.com', type: 'normal', status: 'suspended', joinDate: '2024-03-10' },
+    { id: '2', name: 'Rahul rana', email: 'rahul@gmail.com', type: 'scrap_collector', status: 'active', joinDate: '2024-02-20' },
+    { id: '3', name: 'Anita nepal', email: 'anita@gmail.com', type: 'normal', status: 'suspended', joinDate: '2024-03-10' },
   ];
 
   const mockTransactions = [
     { id: 'TXN001', user: 'Priya Sharma', item: 'Vintage Leather Jacket', amount: 2500, status: 'completed', date: '2024-12-28' },
     { id: 'TXN002', user: 'Rahul Kumar', item: 'Programming Books', amount: 1200, status: 'pending', date: '2024-12-27' },
-    { id: 'TXN003', user: 'Anita Singh', item: 'Study Table', amount: 0, status: 'completed', date: '2024-12-26' },
+    { id: 'TXN003', user: 'Anita thapa', item: 'Study Table', amount: 0, status: 'completed', date: '2024-12-26' },
   ];
 
   const mockPickups = [
-    { id: 'PU001', collector: 'Rahul Kumar', location: 'Mumbai, Maharashtra', items: 3, status: 'in_progress', date: '2024-12-28' },
-    { id: 'PU002', collector: 'Vikram Patel', location: 'Delhi, Delhi', items: 5, status: 'completed', date: '2024-12-27' },
-    { id: 'PU003', collector: 'Suresh L.', location: 'Pune, Maharashtra', items: 2, status: 'scheduled', date: '2024-12-29' },
+    { id: 'PU001', collector: 'Rahul ', location: 'kathmandu', items: 3, status: 'in_progress', date: '2024-12-28' },
+    { id: 'PU002', collector: 'Vikram ', location: 'kathmandu', items: 5, status: 'completed', date: '2024-12-27' },
+    { id: 'PU003', collector: 'Suresh L.', location: 'kathmandu', items: 2, status: 'scheduled', date: '2024-12-29' },
   ];
 
   const renderOverview = () => (
