@@ -69,7 +69,7 @@ export default function Home() {
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Thrift quality items, sell used books, give away for reuse, or collect scrap. 
-                Join India's most comprehensive recycling platform.
+                Join Nepal's most comprehensive recycling platform.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link 

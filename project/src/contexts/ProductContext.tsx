@@ -34,7 +34,7 @@ const mockProducts: Product[] = [
   {
     id: '1',
     title: 'Vintage Leather Jacket',
-    description: 'Classic brown leather jacket in excellent condition. Perfect for fall weather.',
+    description: 'cap.',
     price: 2500,
     category: 'clothing',
     listingType: 'thrift',

@@ -146,7 +146,7 @@ export default function DeliveryModal({ isOpen, onClose, product, onConfirm }: D
                   <CreditCard className="h-5 w-5 text-green-600 dark:text-green-400" />
                   <div className="text-left">
                     <div className="font-medium text-gray-900 dark:text-white">Online Payment</div>
-                    <div className="text-sm text-gray-500 dark:text-gray-400">Pay now with UPI/Card/Wallet</div>
+                    <div className="text-sm text-gray-500 dark:text-gray-400">Pay now with khalti Wallet</div>
                   </div>
                 </div>
               </button>
