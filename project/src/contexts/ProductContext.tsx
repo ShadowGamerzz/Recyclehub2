@@ -117,7 +117,7 @@ const mockProducts: Product[] = [
     category: 'furniture',
     listingType: 'reuse',
     condition: 'good',
-    images: ['https://pixabay.com/photos/chair-plastic-sea-vacations-3630269/'],
+    images: ['https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg'],
     seller: { id: 'seller7', name: 'Ravi T.', rating: 4.6 },
     location: 'thapathali, Kathmandu',
     createdAt: new Date()
