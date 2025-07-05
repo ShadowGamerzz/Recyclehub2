@@ -33,7 +33,7 @@ const ProductContext = createContext<ProductContextType | undefined>(undefined);
 const mockProducts: Product[] = [
   {
     id: '1',
-    title: 'Vintage Leather Jacket',
+    title: 'NIke Cap',
     description: 'cap.',
     price: 2500,
     category: 'clothing',
@@ -41,7 +41,7 @@ const mockProducts: Product[] = [
     condition: 'excellent',
     images: ['https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg'],
     seller: { id: 'seller1', name: 'Sarah M.', rating: 4.8 },
-    location: 'Mumbai, Maharashtra',
+    location: 'kupandol, Lalitpur',
     createdAt: new Date()
   },
   {
@@ -54,7 +54,7 @@ const mockProducts: Product[] = [
     condition: 'good',
     images: ['https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg'],
     seller: { id: 'seller2', name: 'Rahul K.', rating: 4.6 },
-    location: 'Delhi, Delhi',
+    location: 'Baneshowr, kathmandu',
     createdAt: new Date()
   },
   {
@@ -67,7 +67,7 @@ const mockProducts: Product[] = [
     condition: 'fair',
     images: ['https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg'],
     seller: { id: 'seller3', name: 'Priya S.', rating: 4.9 },
-    location: 'Bangalore, Karnataka',
+    location: 'patan, lalitpur',
     createdAt: new Date()
   },
   {
@@ -80,7 +80,7 @@ const mockProducts: Product[] = [
     condition: 'fair',
     images: ['https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg'],
     seller: { id: 'seller4', name: 'Amit P.', rating: 4.5 },
-    location: 'Pune, Maharashtra',
+    location: 'kupondol, lalitpur',
     createdAt: new Date()
   },
   {
@@ -93,7 +93,7 @@ const mockProducts: Product[] = [
     condition: 'excellent',
     images: ['https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg'],
     seller: { id: 'seller5', name: 'Neha R.', rating: 4.7 },
-    location: 'Chennai, Tamil Nadu',
+    location: 'Kalikanagar, butwal',
     createdAt: new Date()
   },
   {
@@ -106,7 +106,7 @@ const mockProducts: Product[] = [
     condition: 'good',
     images: ['https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg'],
     seller: { id: 'seller6', name: 'Kavita M.', rating: 4.8 },
-    location: 'Kolkata, West Bengal',
+    location: 'ratnapark, kathmandu',
     createdAt: new Date()
   },
   {
@@ -117,9 +117,9 @@ const mockProducts: Product[] = [
     category: 'furniture',
     listingType: 'reuse',
     condition: 'good',
-    images: ['https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg'],
+    images: ['https://pixabay.com/photos/chair-plastic-sea-vacations-3630269/'],
     seller: { id: 'seller7', name: 'Ravi T.', rating: 4.6 },
-    location: 'Hyderabad, Telangana',
+    location: 'thapathali, Kathmandu',
     createdAt: new Date()
   },
   {
@@ -132,7 +132,7 @@ const mockProducts: Product[] = [
     condition: 'fair',
     images: ['https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg'],
     seller: { id: 'seller8', name: 'Suresh L.', rating: 4.4 },
-    location: 'Ahmedabad, Gujarat',
+    location: 'milanchok, butwal',
     createdAt: new Date()
   }
 ];
